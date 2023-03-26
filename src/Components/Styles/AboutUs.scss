@@ -1,0 +1,51 @@
+@media only screen and (min-width:300px) {
+    .about-us {
+        width: 100%;
+        background-color: #383e42;
+        .despre-noi {
+            border-bottom: 1px solid white;
+            border-left: 1px solid white;
+            border-radius: 10px;
+            padding: 0px 10px;
+            width: 80%;
+            margin: 0 auto;
+            h2 {
+                text-align: center;
+                color: white;
+            }
+            p {
+                color: white;
+            }
+        }
+        .working-hours {
+            width: 80%;
+            margin: 0 auto;
+            border-bottom: 1px solid white;
+            border-right: 1px solid white;
+            border-radius: 10px;
+            h2 {
+                text-align: center;
+                color: white;
+            }
+            p {
+                color: white;
+                display: flex;
+                justify-content: center;
+                line-height: 1.9;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .about-us {
+        display: flex;
+        padding: 10px;
+        .despre-noi {
+            width: 33%;
+        }
+        .working-hours {
+            width: 33%;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+@media only screen and (min-width:280px) {
+    .nav-bar{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .nav-bar {
+        display: flex;
+        justify-content: space-between;
+        padding: 1.2% 3%;
+        background: #383e42;
+        align-items: center;
+        box-shadow: 0px 7px 28px 8px rgba(56,62,66,0.74);
+        z-index: 999;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        span {
+            color: white;
+            align-items: center;
+            cursor: pointer;
+            font-weight: 450;
+        }
+    }
+    nav {
+        a{  
+            margin-right: 35px;
+            color: white;
+            font-weight: 450;
+            transition: 0.5s;
+            &:hover {
+                color: white;
+                transform: translateY(-10px);
+            }
+        }
+
+    }
+}
+@media only screen and (min-width: 1900px) {
+    .nav-bar {
+        padding: 1% 2.5%;
+    }
+}

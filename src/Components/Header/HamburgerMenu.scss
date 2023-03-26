@@ -1,0 +1,19 @@
+.hide {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 998;
+    span {
+        color: white;
+        align-items: center;
+        cursor: pointer;
+        font-weight: 450;
+
+    }
+}
+@media (min-width:768px) {
+    .hide {
+        display: none;
+    }
+}
