@@ -1,0 +1,64 @@
+@media only screen and (min-width:0) {
+    .details-card {
+        background-color: #383e42;
+        padding: 20px 0;
+        .img {
+            width: 100%;
+            display: flex;
+            img {
+                width: 70%;
+                height: 20%;
+                margin: 20px auto;
+            }
+            
+        }
+        .text {
+    
+            width: 80%;
+            margin: 20px auto;
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+            border-radius: 10px;
+            h4 {
+                text-align: center;
+                color: white;
+                font-weight: 500;
+                font-size: 42px;
+                padding-bottom: 40px;
+            }
+            p {
+                color: white;
+                font-weight: 450;
+                padding: 0 20px 20px 20px;
+                margin: 20px 0px;
+                line-height: 2;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .details-card{
+        padding: 0 7%;
+        .d_flex {
+            display: flex;
+        }
+        .d_flex_rev {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        .img {
+            width: 50%;
+            img {
+                width: 80%;
+                height: auto;
+                max-height: 500px;
+            }
+        }
+        .text{
+            width: 50%;
+            max-height: 500px;
+            align-self: center;
+        }
+    }
+}
