@@ -1,8 +1,12 @@
+.turcoeaz{
+    color: turquoise;
+}
+
 @media only screen and (min-width:300px) {
     .about-us {
         width: 100%;
         background-color: #383e42;
-        padding: 15px 0px 15px 0px;
+        padding: 15px 0;
         .despre-noi {
             border-left: 1px solid white;
             border-right: 1px solid white;
@@ -10,22 +14,25 @@
             padding: 0px 10px;
             width: 80%;
             margin: 0 auto;
+            box-shadow: 0px 0px 30px 2px white;
+            background-color: whitesmoke;
             h2 {
                 text-align: center;
-                color: white;
+                color: #383e42;
             }
             p {
-                color: white;
+                color: #383e42;
                 text-align: center;
                 display: flex;
                 flex-direction: column;
                 line-height: 1.9;
+                font-weight: bold;
             }
             a {
                 padding: 2px 0;
                 border-radius: 10px;
                 border: none;
-                background: limegreen;
+                background: turquoise;
                 text-align: center;
                 margin: 20px 30%;
                 color: white;
@@ -38,15 +45,28 @@
             border-right: 1px solid white;
             border-radius: 10px;
             padding-top: 15px;
+            box-shadow: 0px 0px 30px 2px white;
+            background-color: whitesmoke;
             h2 {
                 text-align: center;
-                color: white;
+                color: #383e42;
             }
-            p {
-                color: white;
-                display: flex;
-                justify-content: center;
-                line-height: 1.9;
+            .lists {
+                text-align: center;
+                ul {
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    padding: 0;
+                    margin: 0;
+                    li {
+
+                        list-style-type: none;
+                        font-weight: bold;
+                        width: 100%;
+                    }
+                }
+
             }
         }
     }
@@ -57,17 +77,46 @@
         display: flex;
         padding: 25px 10px 10px 10px;
         .despre-noi {
-            width: 33%;
+            width: 40%;
             padding-top: 20px;
         }
         .working-hours {
-            width: 33%;
-            padding-top: 20px;
+            width: 40%;
+            padding: 20px 0;
+            .lists {
+                ul {
+                    display: flex;
+                    justify-content: center;
+                    gap: 10px;
+                    li {
+                        list-style-type: none;
+                        font-weight: bold;
+                        width: 40%;
+                    }
+                }
+
+            }
         }
     }
 }
+
+@media only screen and (min-width:1240px) {
+    .about-us {
+        padding: 25px 2%; 
+    }
+}
+
+
 @media only screen and (min-width:1440px) {
     .about-us {
         padding: 25px 15%; 
     }
 }
+
+
+@media only screen and (min-width:2100px) {
+    .about-us {
+        padding: 25px 19%; 
+    }
+}
+

@@ -1,7 +1,18 @@
 import React from "react";
 import "./Styles/AboutUs.scss";
+import { useState, useEffect } from "react";
+import { WorkingHours } from "../Data/WorkingHours";
 
 function AboutUs() {
+
+  const [dayOfWeek, setDayOfWeek] = useState(null);
+
+  useEffect(() => {
+    const date = new Date();
+    const currentDay = date.getDay();
+    setDayOfWeek(currentDay);
+  }, []);
+
   return (
     <section className="about-us">
       <div className="despre-noi">
@@ -23,16 +34,19 @@ function AboutUs() {
       </div>
       <div className="working-hours">
         <h2>Program de lucru</h2>
-        <p>
-          Luni: 09:00-18:00 <br />
-          Marti: 09:00-18:00 <br />
-          Miercuri: 09:00-18:00 <br />
-          Joi: 09:00-18:00 <br />
-          Vineri: 09:00-18:00 <br />
-          Sambata: 09:00-12:00 <br />
-          Duminica: Inchis <br />
-        </p>
-      </div>
+        <div className="lists">
+        {WorkingHours.map((item,index) => {
+          return(
+            <div key={index}>
+              <ul>
+                <li className={dayOfWeek -1 === index ? "turcoeaz" : ""}>{item.day}</li>
+                <li className={dayOfWeek -1 === index ? "turcoeaz" : ""}>{item.hours}</li>
+              </ul>
+            </div>
+          )
+        })}
+        </div>
+        </div>
     </section>
   );
 }
