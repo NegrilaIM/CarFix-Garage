@@ -1,0 +1,59 @@
+@media only screen and (min-width:300px) {
+    .parteneri {
+        padding: 15px 10%;
+        h2 {
+            text-align: center;
+            padding: 15px 0;
+            border-bottom: 1px solid #383e42;
+        }
+        .photo {
+            height: 100px;
+        }
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .parteneri {
+        padding: 15px 15%;
+        h2{
+            font-size: 34px;
+        }
+    }
+}
+
+@media only screen and (min-width:1140px) {
+    .parteneri {
+        padding: 15px 18%;
+        .photo{
+            height: 130px;
+        }
+    }
+
+}
+@media only screen and (min-width:1330px) {
+    .parteneri {
+        padding: 15px 21%;
+        .photo {
+            height: 150px;
+        }
+    }
+}
+
+@media only screen and (min-width:1920px) {
+    .parteneri {
+        padding: 15px 30%;
+        .photo {
+            height: 190px;
+        }
+    }
+}
+
+@media only screen and (min-width:2400px) {
+    .parteneri {
+        padding: 15px 33%;
+        .photo {
+            height: 190px;
+        }
+    }
+}
+

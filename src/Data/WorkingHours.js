@@ -23,6 +23,6 @@ export const WorkingHours = [{
     hours: '09:00-13:00'
 },
 {
-    day: 'Monday',
+    day: 'Duminica',
     hours: 'Inchis'
 },]

@@ -8,7 +8,7 @@ function NavBar() {
             CarFix Garage
         </span>
       <nav className="nav">
-        <a href="#Service">Service</a>
+        <a href="#CompanyDetails">Service</a>
         <a href="#Spalatorie">Spalatorie</a>
         <a href="Vulcanizare">Vulcanizare</a>
       </nav>

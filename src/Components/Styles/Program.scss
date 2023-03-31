@@ -1,57 +1,63 @@
-@media only screen and (min-width:0px) {
+@media only screen and (min-width:300px) {
     .program {
-        display: flex;
-        justify-content: space-between;
         width: 100%;
-        padding: 70px 80px 0;
+        padding: 100px 80px 0;
+        display: flex;
+        justify-content: center;
         text-align: center;
+        background-color: #383e42;
         .contact {
-            width: 100%;
             h4 {
-                color: #383e42;
-                padding-bottom: 3px;
+                color: white;
             }
             .d_flex {
                 display: flex;
                 justify-content: center;
                 gap: 10%;
-                p{
-                    padding-top: 15px;
-                    font-weight: 450;
+                color: white;
+                p {
                     a{
-                        text-decoration: none;
-                        color: lime;
+                        color: turquoise;
                     }
                 }
-                
+
             }
-
-
         }
-
     }
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (min-width:768px) {
     .program {
-        flex-direction: column;
-        background-color: #383e42;
-        padding: 80px 40px 0;
+        padding-bottom: 15px;
         .contact {
-            width: 100%;
-            border-bottom: 1px solid white;
+            width: 50%;
+            border-radius: 10px;
+            box-shadow: 0px 0px 30px 2px white;
+            background-color: whitesmoke;
             h4 {
-                color: white;
+                color: #383e42;
+                font-size: 34px;
             }
-            p {
-                color: white;
+            .d_flex {
+                color: #383e42;
+                font-weight: bold;
             }
         }
     }
 }
 
-@media only screen and (min-width:1440px) {
-    .program{
-        padding: 90px 40px 0;
+@media only screen and (min-width:1340px) {
+    .program {
+        .contact {
+            width: 45%;
+        }
+    }
+}
+
+@media only screen and (min-width:1920px) {
+    .program {
+        .contact {
+            width: 40%;
+        }
     }
 }

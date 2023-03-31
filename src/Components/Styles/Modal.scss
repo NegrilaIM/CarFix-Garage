@@ -1,0 +1,79 @@
+@media only screen and (min-width:0) {
+    .modal_style {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        z-index: 1000;
+        padding: 35px 100px;
+        border-radius: 30px;
+        .modal_header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            border-bottom: 1px solid gray;
+            padding: 15px 0;
+            img {
+                padding: 0;
+                margin: 0;
+            }
+            h4{
+                width: 100%;
+    
+            }
+        }
+        .modal_description {
+            margin-top: 10px;
+        }
+        
+    }
+    .modal_overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, .7);
+        z-index: 1000;
+        
+    }
+}
+
+@media only screen and (min-width:300px) {
+    .modal_style {
+        padding: 0;
+        width: 80%;
+        .modal_header{
+            width: 100%;
+            padding: 0;
+            img{
+                display: none;
+            }
+        }
+        .modal_description{
+            button {
+                padding: 3px 12px;
+                border: none;
+                border-radius: 10px;
+                color: white;
+                background-color: turquoise;
+                float: right;
+                margin: 0 10px 10px 0;
+                
+            }
+        }
+    }
+}
+@media only screen and (min-width:768px) {
+   .modal_style {
+    width: 450px;
+    transition: transform 3s ease-in;
+    .modal_header {
+        padding: 0 30px;
+        img {
+            display: inline;
+        }
+    }
+   }
+}

@@ -1,23 +1,55 @@
-@media only screen and (min-width:0) {
+@media only screen and (min-width:300px) {
     .service {
-        display: grid;
-        grid-template-columns: repeat(1, 2fr);
+        background-color: #383e42;
+        padding-bottom: 25px;
+        .card-box {
+            display: grid;
+            grid-template-columns: repeat(1, 2fr);
+            background-color: white;
+            max-width: 88%;
+            margin: 0 auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px 2px white;
+            background-color: whitesmoke;
+        }
     }
 }
 
 @media only screen and (min-width:768px) {
     .service {
-        grid-template-columns: repeat(2, 2fr);
+        background-color: #383e42;
+        padding-bottom: 25px;
+        .card-box {
+            grid-template-columns: repeat(2, 2fr);
+            background-color: white;
+            max-width: 88%;
+            margin: 0 auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px 2px white;
+            background-color: whitesmoke;
+        }
+    }
+}
+@media only screen and (min-width:1340px) {
+    .service {
+        background-color: #383e42;
+        padding-bottom: 25px;
+        .card-box {
+            grid-template-columns: repeat(3, 2fr);
+            background-color: white;
+            max-width: 80%;
+            margin: 0 auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px 2px white;
+            background-color: whitesmoke;
+        }
     }
 }
 
-@media only screen and (min-width:1140px) {
+@media only screen and (min-width:2300px) {
     .service {
-        grid-template-columns: repeat(3, 2fr);
-    }
-}
-@media only screen and (min-width:1920px) {
-    .service {
-        grid-template-columns: repeat(4, 2fr);
+        .card-box {
+            grid-template-columns: repeat(4, 2fr);
+        }
     }
 }

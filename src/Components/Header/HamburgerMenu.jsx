@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../Header/HamburgerMenu.scss'
+import Logo from "../../Assets/logo.png"
 import {
   MDBNavbarBrand,
   MDBContainer,
@@ -20,7 +21,7 @@ export default function HamburgerMenu() {
         <MDBContainer fluid>
         <MDBNavbarBrand href='#'>
             <img
-              src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZKMY40iRbAgA3eHyQm4cpK7C0noEdBskKHjaxXDZi&s'
+              src={Logo}
               height='40'
               alt=''
               loading='lazy'
