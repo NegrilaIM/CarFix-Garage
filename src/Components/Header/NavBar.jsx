@@ -4,13 +4,13 @@ import "../Header/NavBar.scss";
 function NavBar() {
   return (
     <div className="nav-bar">
-        <span>
-            CarFix Garage
-        </span>
+        <a href="#program">
+        CarFix Garage
+        </a>
       <nav className="nav">
-        <a href="#CompanyDetails">Service</a>
-        <a href="#Spalatorie">Spalatorie</a>
-        <a href="Vulcanizare">Vulcanizare</a>
+        <a href="#service">Service</a>
+        <a href="#spalatorie">Spalatorie</a>
+        <a href="#parteneri">Vulcanizare</a>
       </nav>
     </div>
   );

@@ -39,8 +39,8 @@ function AboutUs() {
           return(
             <div key={index}>
               <ul>
-                <li className={dayOfWeek -1 === index ? "turcoeaz" : ""}>{item.day}</li>
-                <li className={dayOfWeek -1 === index ? "turcoeaz" : ""}>{item.hours}</li>
+                <li className={dayOfWeek -1 === index ? "turqoise" : ""}>{item.day}</li>
+                <li className={dayOfWeek -1 === index ? "turqoise" : ""}>{item.hours}</li>
               </ul>
             </div>
           )

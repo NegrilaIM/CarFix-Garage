@@ -3,32 +3,35 @@ import Slider1 from "../Assets/Slider-1.jpg";
 import Slider2 from "../Assets/Slider-2.jpg";
 import Slider3 from "../Assets/Slider-3.jpg";
 import "./Styles/Carousel.scss";
-import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
+import Carousel from 'react-bootstrap/Carousel';
 
-export default function Carousel() {
 
+export default function CCarousel() {
   return (
     <section className="carusel">
-      <MDBCarousel>
-        <MDBCarouselItem
-          className="w-100 height d-block"
-          itemId={1}
+      <Carousel controls= {false} indicators= {false} >
+      <Carousel.Item>
+        <img
+          className="d-block w-100 height"
           src={Slider1}
-          alt="..."
+          alt="First slide"
         />
-        <MDBCarouselItem
-          className="w-100 height d-block"
-          itemId={2}
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100 height"
           src={Slider2}
-          alt="..."
+          alt="Second slide"
         />
-        <MDBCarouselItem
-          className="w-100 height d-block"
-          itemId={3}
+      </Carousel.Item>
+      <Carousel.Item >
+        <img
+          className="d-block w-100 height"
           src={Slider3}
-          alt="..."
+          alt="Third slide"
         />
-      </MDBCarousel>
+      </Carousel.Item>
+    </Carousel>
     </section>
   );
 }

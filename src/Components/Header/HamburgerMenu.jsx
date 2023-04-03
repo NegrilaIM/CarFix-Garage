@@ -19,7 +19,7 @@ export default function HamburgerMenu() {
     <div className='hide'>
       <MDBNavbar>
         <MDBContainer fluid>
-        <MDBNavbarBrand href='#'>
+        <MDBNavbarBrand href='#program'>
             <img
               src={Logo}
               height='40'
@@ -43,13 +43,13 @@ export default function HamburgerMenu() {
 
       <MDBCollapse show={showNavExternal3}>
         <div className='bg-light shadow-3 p-4'>
-          <MDBBtn block className='border-bottom m-0' color='link'>
+          <MDBBtn block className='border-bottom m-0' color='link' href='#service'>
             Service
           </MDBBtn>
-          <MDBBtn block className='border-bottom m-0' color='link'>
+          <MDBBtn block className='border-bottom m-0' color='link' href='#spalatorie'>
             Spalatorie
           </MDBBtn>
-          <MDBBtn block className='border-bottom m-0' color='link'>
+          <MDBBtn block className='border-bottom m-0' color='link' href='#parteneri'>
             Vulcanizare
           </MDBBtn>
         </div>

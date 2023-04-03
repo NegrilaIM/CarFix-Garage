@@ -16,11 +16,15 @@
         position: fixed;
         top: 0;
         width: 100%;
-        span {
+        a {
             color: #383e42;
             align-items: center;
             cursor: pointer;
             font-weight: 450;
+            transition: 1s all;
+            &:hover {
+                transform: scale(1.2);
+            }
         }
     }
     nav {
@@ -30,8 +34,7 @@
             font-weight: 450;
             transition: 0.5s;
             &:hover {
-                color: white;
-                transform: translateY(-10px);
+                transform: scale(1.1);
             }
         }
 

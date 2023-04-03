@@ -4,7 +4,7 @@ import DetailsCard from "./DetailsCard";
 
 function CompanyDetails() {
   return (
-    <div>
+    <div id="spalatorie">
       {details.map((item, index) => {
         return (
           <DetailsCard key={index} image={item.image} title={item.title} paragraph={item.paragraph} id={item.id}/>

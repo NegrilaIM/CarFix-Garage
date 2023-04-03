@@ -1,7 +1,7 @@
 import React from 'react'
 import './Styles/Modal.scss'
 
-function Modal({open, onClose, image, title}) {
+function Modal({open, onClose, image, title, desc1, desc2, desc3, desc4}) {
   if(!open) return null
   return (
     <>
@@ -13,11 +13,10 @@ function Modal({open, onClose, image, title}) {
       </div>
       <div className='modal_description'>
         <ul>
-          <li>descriere</li>
-          <li>descriere</li>
-          <li>descriere</li>
-          <li>descriere</li>
-          <li>descriere</li>
+          <li>{desc1}</li>
+          <li>{desc2}</li>
+          <li>{desc3}</li>
+          <li>{desc4}</li>
         </ul>
         <button onClick={onClose}>Inapoi</button>
       </div>

@@ -6,8 +6,8 @@
         transform: translate(-50%, -50%);
         background-color: white;
         z-index: 1000;
-        padding: 35px 100px;
         border-radius: 30px;
+        margin: 0 10px;
         .modal_header {
             display: flex;
             align-items: center;
@@ -25,6 +25,11 @@
         }
         .modal_description {
             margin-top: 10px;
+            li {
+                font-weight: 450;
+                color: #383e42;
+                line-height: 1.6;
+            }
         }
         
     }
@@ -70,9 +75,10 @@
     width: 450px;
     transition: transform 3s ease-in;
     .modal_header {
-        padding: 0 30px;
         img {
             display: inline;
+            height: 150px;
+            width: 200px;
         }
     }
    }

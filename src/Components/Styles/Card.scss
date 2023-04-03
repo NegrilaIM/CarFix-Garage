@@ -16,6 +16,7 @@
             height: 130px;
             padding: 0 25px;
             margin: 0 auto;
+            cursor: pointer;
         }
         h4 {
             text-align: center;
@@ -28,7 +29,7 @@
             background: #383e42;
             text-align: center;
             margin: 0 50px;
-            transition: 0.2s all;
+            transition: 1s all;
             &:active {
                 transform: scale(1.1);
             }

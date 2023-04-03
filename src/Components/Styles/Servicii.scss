@@ -2,6 +2,12 @@
     .service {
         background-color: #383e42;
         padding-bottom: 25px;
+        .service-title{
+            color: white;
+            text-align: center;
+            font-size: 38px;
+            padding: 10px 0;
+        }
         .card-box {
             display: grid;
             grid-template-columns: repeat(1, 2fr);
@@ -19,6 +25,7 @@
     .service {
         background-color: #383e42;
         padding-bottom: 25px;
+
         .card-box {
             grid-template-columns: repeat(2, 2fr);
             background-color: white;
@@ -30,6 +37,7 @@
         }
     }
 }
+
 @media only screen and (min-width:1340px) {
     .service {
         background-color: #383e42;
