@@ -1,78 +1,67 @@
-@media only screen and (min-width:0) {
-    .footer {
-        width: 100%;
+@media only screen and (min-width:300px) {
+    footer {
         background-color: #383e42;
-        padding: 30px 5% 10px 5%;
-        margin: 0;
+        color: white;
+        padding: 20px 0;
         .footer-container {
-            display: flex;
-            justify-content: space-between;
-            color: white;
-            .footer-social-media{
-                display: flex;
-                flex-direction: column;
+            text-align: center;
+            .footer-social-media {
+                padding-top: 10px;
                 i {
-                    text-align: center;
-                    padding-top: 5px;
+                    margin: 0 10px;
+                    padding-top: 20px;
+                    cursor: pointer;
                 }
             }
             .footer-contact {
+                padding-top: 10px;
                 p {
-                    margin: 0;
-                    padding-top: 5px;
+                    padding-top: 10px;
+                    line-height: 0.5;
+                }
+            }
+            .footer-program {
+                padding-top: 10px;
+                p {
+                    padding-top: 10px;
+                    line-height: 0.5;
                 }
             }
         }
         .developer {
             text-align: center;
-            color: white;
-            font-size: 14px;
-            padding-top: 5px;
-
+            font-size: 10px;
+            padding-top: 10px;
             a {
+                font-size: 14px;
+                text-decoration: none;
+                translate: 0.5s;
                 color: white;
-                font-size: 18px;
-                translate: 0.3s all;
+                cursor: pointer;
                 &:hover {
                     transform: scale(1.2);
                 }
             }
         }
-
-
     }
 }
-
-@media only screen and (max-width:768px) {
-    .footer {
+@media only screen and (min-width:768px) {
+    footer {
         .footer-container {
-            display: block;
-            text-align: center;
+            max-width: 768px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-evenly;
             .footer-social-media {
-                display: block;
-                i {
-                    &:nth-child(1) {
-                        margin: 0 10px;
-                    }
+                display: flex;
+                flex-direction: column;
+                a {
+                    text-decoration: none;
+                    color: white;
+                    cursor: pointer;
                 }
-                
+
             }
-            .footer-contact {
-                h4 {
-                    padding-top: 15px;
-                }
-                p {
-                    font-size: 14px;
-                }
-            }
-            .footer-dropdown {
-                h4 {
-                    padding-top: 15px;
-                }
-            }
-        }
-        .developer {
-            padding-top: 15px;
         }
     }
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import './Styles/DetailsCard.scss'
+import '../Styles/DetailsCard.scss'
 
 function DetailsCard({id, image, title, paragraph}) {
   return (

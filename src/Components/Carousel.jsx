@@ -2,6 +2,8 @@ import React from "react";
 import Slider1 from "../Assets/Slider-1.jpg";
 import Slider2 from "../Assets/Slider-2.jpg";
 import Slider3 from "../Assets/Slider-3.jpg";
+import Slider4 from "../Assets/Slider-4.jpg";
+import Slider5 from "../Assets/Slider-5.jpg";
 import "./Styles/Carousel.scss";
 import Carousel from 'react-bootstrap/Carousel';
 
@@ -29,6 +31,20 @@ export default function CCarousel() {
           className="d-block w-100 height"
           src={Slider3}
           alt="Third slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item >
+        <img
+          className="d-block w-100 height"
+          src={Slider4}
+          alt="Forth slide"
+        />
+      </Carousel.Item>
+      <Carousel.Item >
+        <img
+          className="d-block w-100 height"
+          src={Slider5}
+          alt="Fifth slide"
         />
       </Carousel.Item>
     </Carousel>

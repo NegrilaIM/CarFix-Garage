@@ -1,5 +1,5 @@
 import React from 'react'
-import './Styles/Modal.scss'
+import '../Styles/Modal.scss'
 
 function Modal({open, onClose, image, title, desc1, desc2, desc3, desc4}) {
   if(!open) return null

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './Styles/Card.scss'
+import '../Styles/Card.scss'
 import Modal from './Modal'
 
 

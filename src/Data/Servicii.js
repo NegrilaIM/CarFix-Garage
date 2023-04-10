@@ -1,6 +1,6 @@
 
 export const Service = [{
-    image: require(`../Assets/Card/DiagnozaAuto.png`),
+    image: require(`../Assets/Card/DiagnozaAuto.jpg`),
     title: 'Diagnoza auto',
     description1: 'Verificare parametri de functionare ai motorului , abs , airbag , directie asistata sa',
     description2: 'Diagnosticare defectiuni',
@@ -9,7 +9,7 @@ export const Service = [{
 
 },
 {
-    image: require('../Assets/Card/SchimbUlei.png'),
+    image: require('../Assets/Card/SchimbUlei.jpg'),
     title: 'Schimb de ulei',
     description1: 'Ridicare masina: Masina este ridicata pentru a accesa sistemul de ulei si filtrele.',
     description2: 'Inlocuirea filtrului: Se inlocuiesc filtrele de ulei si aer.',
@@ -18,8 +18,18 @@ export const Service = [{
 
 },
 {
-    image: require('../Assets/Card/SchimbFreon.jpg'),
-    title: 'Schimb de Freon',
+    image: require('../Assets/Card/SchimbFiltre.jpg'),
+    title: 'Schimb Filtre',
+    description1: 'Înlocuirea filtrelor este crucială pentru menținerea performanței și eficienței mașinii.',
+    description2: 'Aceasta prelungește durata de viață a motorului și a altor componente.',
+    description3: "Schimbarea filtrelor ajută la îmbunătățirea calității aerului și a combustibilului.",
+    description4: 'Filtrele proaspete reduc riscul de daune costisitoare la mașină și previn defecțiunile mecanice.',
+
+
+},
+{
+    image: require('../Assets/Card/IncarcareFreon.jpg'),
+    title: 'Incarcare AC/Curatare instalatie AC',
     description1: 'Consultanta de specialitate',
     description2: 'Curatarea si vidarea instalatiei folosind aparatura profesionala',
     description3: "Incarcare Freon Auto in instalatia de aer conditionat a masinii",
@@ -27,8 +37,8 @@ export const Service = [{
 
 },
 {
-    image: require('../Assets/Card/InterventiiMotor.jpg'),
-    title: 'Interventii Motor',
+    image: require('../Assets/Card/MecanicaAuto.jpg'),
+    title: 'Mecanica Auto',
     description1: 'Diagnosticarea problemei: Se identifica problema din motor.',
     description2: 'Repararea motorului: Se repara motorul, inlocuind piesele defecte.',
     description3: "Testarea functionarii: Motorul este testat pentru a verifica functionarea corecta.",
@@ -55,7 +65,7 @@ export const Service = [{
 },
 {
     image: require('../Assets/Card/SchimbFrane.jpg'),
-    title: 'Sistem franare',
+    title: 'Schimb elemente franare',
     description1: 'Identificarea problemei: Se identifica problema din sistemul de franare.',
     description2: 'Inlocuirea componentelor: Se inlocuiesc placutele si discurile de frana, precum si lichidul de frana.',
     description3: "Testarea functionarii: Se testeaza functionarea sistemului de franare.",
@@ -63,13 +73,13 @@ export const Service = [{
 
 },
 {
-    image: require('../Assets/Card/SchimbSuspensii.jpg'),
-    title: 'Suspensii',
-    description1: 'Ridicare masina: Masina este ridicata pentru a se accesa sistemul de suspensii.',
-    description2: 'Inlocuirea componentelor: Se inlocuiesc amortizoarele si arcurile de suspensie.',
-    description3: "Verificarea alinierii: Alinierea rotilor este verificata si ajustata daca este necesar.",
-    description4: 'Testarea functionarii: Masina este testata pentru a verifica functionarea corecta a sistemului de suspensii.',
-
+    image: require('../Assets/Card/GeometrieRoti.jpg'),
+    title: 'Geometrie roti 3D',
+    description1: 'Geometria roților asigură o direcție corectă și o stabilitate optimă a mașinii.',
+    description2: 'Acesta prelungește durata de viață a anvelopelor și a altor componente.',
+    description3: "Geometria corectă reduce consumul de combustibil și minimizează uzura neuniformă a anvelopelor.",
+    description4: 'O geometrie corectă reduce riscul de accidente și menține siguranța pe drum.',
 
 },
+
 ]

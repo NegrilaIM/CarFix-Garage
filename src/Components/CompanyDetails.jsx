@@ -1,6 +1,6 @@
 import React from "react";
 import {details} from '../Data/CompanyDetails'
-import DetailsCard from "./DetailsCard";
+import DetailsCard from "./Cards/DetailsCard";
 
 function CompanyDetails() {
   return (

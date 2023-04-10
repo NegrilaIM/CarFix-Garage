@@ -1,3 +1,7 @@
+.turqoise{
+    color: rgb(8, 184, 8);
+}
+
 @media only screen and (min-width:300px) {
     .program {
         width: 100%;
@@ -23,6 +27,14 @@
 
             }
         }
+        .despre-noi {
+            display: none;
+        }
+        .working-hours {
+            display: none;
+        }
+        
+
     }
 }
 
@@ -43,21 +55,101 @@
                 font-weight: bold;
             }
         }
+        
+    }
+}
+@media only screen and (min-width:1136px) {
+    .program {
+        padding: 100px 3% 40px;
+        .contact{
+            width: 350px;
+            .d_flex {
+                flex-direction: column;
+            }
+        }
+        .despre-noi {
+            display: block;
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+            border-radius: 10px;
+            padding: 0px 10px;
+            width: 350px;
+            margin: 0 auto;
+            box-shadow: 0px 0px 30px 2px white;
+            background-color: whitesmoke;
+            h2 {
+                text-align: center;
+                color: #383e42;
+            }
+            p {
+                color: #383e42;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                line-height: 1.9;
+                font-weight: bold;
+            }
+            a {
+                padding: 2px 0;
+                border-radius: 10px;
+                border: none;
+                background: rgb(8, 184, 8);
+                text-align: center;
+                margin: 20px 30%;
+                color: white;
+            }
+        }
+        .working-hours {
+            display: block;
+            width: 350px;
+            border-left: 1px solid white;
+            border-right: 1px solid white;
+            border-radius: 10px;
+            box-shadow: 0px 0px 30px 2px white;
+            background-color: whitesmoke;
+            h2 {
+                text-align: center;
+                color: #383e42;
+            }
+            .lists {
+                text-align: center;
+                ul {
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    padding: 0;
+                    margin: 0;
+                    li {
+
+                        list-style-type: none;
+                        font-weight: bold;
+                        width: 100%;
+                    }
+                }
+
+            }
+        }
     }
 }
 
 @media only screen and (min-width:1340px) {
     .program {
+        padding: 100px 10% 40px;
         .contact {
-            width: 45%;
+            width: 350px;
+
         }
     }
 }
 
 @media only screen and (min-width:1920px) {
     .program {
+        padding: 100px 20% 40px;
         .contact {
-            width: 40%;
+            width: 350px;
+
         }
     }
 }
+
+
