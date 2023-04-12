@@ -32,7 +32,7 @@ function Program() {
           <p onClick={() => Email('13carfix@gmail.com')}>Email: <br /> <i class="fa-solid fa-envelope fa-xl"></i> 13carfix@gmail.com</p>
         </div>
       </div>
-      <div className="despre-noi">
+      <div className="about-us">
         <h2>Adresa noastra</h2>
         <p>
           <b>Strada Grânelor, Fetești-Gară 925150</b> <br />

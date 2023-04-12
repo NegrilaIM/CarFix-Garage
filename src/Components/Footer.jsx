@@ -20,7 +20,7 @@ function Footer() {
         <div className="footer-social-media">
             <h4>Social Media</h4>
             <a href="https://www.facebook.com/profile.php?id=100074504376904" target="_blank" rel="norefferer"><i class="fa-brands fa-facebook fa-lg"></i></a>
-            <a onClick={() => Whatapp('0731689359')} href="/"><i class="fa-brands fa-whatsapp fa-lg"></i></a>
+            <a onClick={() => Whatapp('+40720261991')} href="/"><i class="fa-brands fa-whatsapp fa-lg"></i></a>
             <a onClick={() => Email('13carfix@gmail.com')} href="/"  ><i class="fa-solid fa-envelope fa-lg"></i></a>
         </div>
         <div className="footer-contact">

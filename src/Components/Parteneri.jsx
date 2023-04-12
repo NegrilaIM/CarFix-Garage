@@ -13,7 +13,7 @@ import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
 
 function Parteneri() {
   return (
-    <section className="parteneri" id="parteneri">
+    <section className="parteners" id="parteneri">
       <div>
         <h2>Partenerii nostri</h2>
       </div>

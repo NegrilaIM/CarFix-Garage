@@ -15,7 +15,7 @@ function AboutUs() {
 
   return (
     <section className="about-us">
-      <div className="despre-noi">
+      <div className="gps-address">
         <h2>Adresa noastra</h2>
         <p>
           <b>Strada Grânelor, Fetești-Gară 925150</b> <br />
